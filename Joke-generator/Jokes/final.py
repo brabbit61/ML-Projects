@@ -7,6 +7,7 @@ from keras.layers.recurrent import LSTM, SimpleRNN
 from keras.layers.wrappers import TimeDistributed
 from keras.optimizers import RMSprop
 	
+	
 '''
 def sample(preds, temperature=1.0):
 	print(preds.shape)
